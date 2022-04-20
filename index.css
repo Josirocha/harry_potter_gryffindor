@@ -3,11 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
 
 body {
     background-image: url('./img/hogwarts.jpg');
     background-size: cover;
-    height: 90vh;
+    background-repeat: no-repeat;
+    
 }
 
 header {
@@ -20,7 +31,6 @@ header {
 }
 
 main {
-    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
