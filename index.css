@@ -67,7 +67,7 @@ main {
 
 }
 
-.start-button {
+button {
     padding: 20px;
     cursor: pointer;
     border-radius: 16px;
