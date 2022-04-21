@@ -3,6 +3,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 } 
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -10,11 +20,16 @@ body {
     flex-direction: column;
     height: 500px;
 }
+.cachecol{
+    height: 200px;
+    margin-bottom: 16px;
+}
 .options {
  width: 512px;
  margin-top: 50px;
  display: flex;
  justify-content: space-between;
+ 
 }
 .options a {
     padding: 10px 20px;
@@ -27,5 +42,5 @@ body {
     color: #fde24f;
     border: 1px solid #fde24f;
     text-align: center;
-
+    text-decoration: none;
 }

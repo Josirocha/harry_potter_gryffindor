@@ -3,22 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body,
 html {
-  height: 100%;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
-  box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
 }
 
 
 body {
-    background-image: url('./img/hogwarts.jpg');
+    background-image: url('../img/hogwarts.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 header {
@@ -28,6 +29,10 @@ header {
     padding: 16px;
 
 
+}
+
+.pomo {
+    height: 40px;
 }
 
 main {
@@ -57,7 +62,7 @@ main {
 .card-principal h1 {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .card-principal h2 {
@@ -84,5 +89,6 @@ button {
 
 .texto {
     font-family: 'Mulish', sans-serif;
-    text-indent: 60px;
+    margin-top: 40px;
+    font-weight: 500;
 }

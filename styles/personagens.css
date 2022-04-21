@@ -9,7 +9,7 @@ body {
     background-image: url('../img/hogwarts.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 header {
@@ -19,6 +19,10 @@ header {
     padding: 16px;
 
 
+}
+
+.pomo {
+    height: 40px;
 }
 
 main {
@@ -31,19 +35,28 @@ main {
 
 main h1 {
     font-family: 'Mulish', sans-serif;
-    font-style:bolder;
+    font-style: bolder;
     font-size: 30px;
-    color: white;
+   color:#fde24f;
+}
+
+.personagens {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
 
 }
-.personagens{
-    display: flex;
-    justify-content:space-around;
-    padding: 16px;
-}
-.personagens  img {
+
+.cards {
     height: 400px;
     width: 300px;
     border-radius: 60px;
-    box-shadow:0 4px 8px #fff ;
+    box-shadow: 0 4px 8px #fff;
+
+}
+
+.cards:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
 }
