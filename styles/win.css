@@ -53,6 +53,7 @@ html {
     .win {
         width: 300px;
     }
+
     .options {
         width: 60%;
         flex-direction: column;
