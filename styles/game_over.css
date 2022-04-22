@@ -41,6 +41,12 @@ html {
     border: 1px solid #fde24f;
     text-align: center;
     text-decoration: none;
+    transition: all 0.3s;
+}
+.botão:hover{
+    transform: scale(1.2);
+    border: 3px solid #fde24f;
+    box-shadow: 0 4px 8px #fde24f;
 }
 
 @media (max-width:915px) {

@@ -84,9 +84,15 @@ button {
     color: #fde24f;
     border: 1px solid #fde24f;
     text-align: center;
+    transition: all 0.3s;
 
 }
+.botao:hover{
+    transform: scale(1.2);
+    border: 3px solid #fde24f;
+    box-shadow: 0 4px 8px #fde24f;
 
+}
 
 .texto {
     font-family: 'Mulish', sans-serif;
