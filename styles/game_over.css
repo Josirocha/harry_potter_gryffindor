@@ -2,30 +2,33 @@ body {
     background-image: url('../img/hogwarts.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-} 
-body,
-html {
-  height: 100%;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
-  box-sizing: border-box;
 }
 
-.container{
+body,
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 500px;
 }
+
 .options {
- width: 512px;
- margin-top: 50px;
- display: flex;
- justify-content: space-between;
+    width: 512px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
+
 .options a {
     padding: 10px 20px;
     cursor: pointer;
@@ -38,4 +41,17 @@ html {
     border: 1px solid #fde24f;
     text-align: center;
     text-decoration: none;
+}
+
+@media (max-width:915px) {
+    .gameOver {
+        width: 200px;
+
+    }
+
+    .options {
+        width: 60%;
+        flex-direction: column;
+        gap: 12px;
+    }
 }

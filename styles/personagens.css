@@ -37,7 +37,8 @@ main h1 {
     font-family: 'Mulish', sans-serif;
     font-style: bolder;
     font-size: 30px;
-   color:#fde24f;
+    color: #fde24f;
+    text-align: center;
 }
 
 .personagens {
@@ -45,7 +46,7 @@ main h1 {
     justify-content: space-around;
     padding: 16px;
     cursor: pointer;
-    transition: 1.0s;
+    gap: 20px;
 }
 
 .cards {
@@ -53,6 +54,7 @@ main h1 {
     width: 300px;
     border-radius: 60px;
     box-shadow: 0 4px 8px #fff;
+    transition: 0.3s ease-in-out;
 
 }
 
@@ -60,4 +62,23 @@ main h1 {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
+    border: 3px solid #fde24f;
+    box-shadow: 0 4px 8px #fde24f;
+
+}
+
+@media (max-width:915px) {
+    .logo {
+        width: 100%;
+    }
+
+    .pomo {
+        width: fit-content;
+    }
+
+    .personagens,
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
 }

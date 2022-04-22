@@ -90,3 +90,21 @@ button {
     font-family: 'Mulish', sans-serif;
     text-indent: 60px;
 }
+@media (max-width:915px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 70%;
+    }
+    .pomo {
+        width: fit-content;
+    }
+    .card-principal{
+        margin: 10px;
+        margin-top: 50px;
+    }
+
+    
+}
